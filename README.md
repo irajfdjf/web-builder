@@ -2,7 +2,7 @@
 - Установка nodejs [ссылка](https://nodejs.org/en/)
 - Клонирование репозитория
   ```bash
-  git clone https://github.com/msheiko/web-builder.git
+  git clone https://github.com/Momaesham/web-builder.git
   ```
 - Установка зависимостей
    ```bash
