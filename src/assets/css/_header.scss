@@ -1,0 +1,15 @@
+ul{
+  display: flex;
+  width: 1000px;
+  justify-content: space-between;
+  a{
+    color: $accent;
+    text-decoration: none;
+    font-family: 'Work sans';
+    font-weight: 700;
+  }
+}
+
+h1{
+  font-family: 'Yeseva One';
+}
