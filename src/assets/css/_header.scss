@@ -20,7 +20,7 @@
       &__item{
         display: flex;
         img{
-          width: 40px;
+          width: 30px;
         }
         &__text{
             font-family: "Work sans";
@@ -34,6 +34,46 @@
           }
         }
       }
+    }
+  }
+  &__bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 187px;
+    background-color: $primary;
+    align-items: center;
+    &__menu{
+      display: flex;
+      font-family: "Work sans";
+      font-weight: 400;
+      font-size: 18px;
+      justify-content: space-between;
+      gap: 20px;
+      &__text{
+        color: $white;
+        text-decoration: none;
+      }
+    }
+    &__poisk{
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      img{
+      width: 20px;
+    }
+      &__clik{
+      background-color: $accent;
+      color: $primary;
+      font-family: "Work sans";
+      font-weight: 500;
+      font-size: 16px;
+      width: 173px;
+      height: 45px;
+      border-radius: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
     }
   }
 }
