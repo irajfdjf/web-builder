@@ -1,0 +1,156 @@
+.f2{
+    &__im{
+        position: relative;
+        img{
+            position: absolute;
+            width: 100%;
+        }
+        .img2{
+            height: 692px;
+        }
+    }
+    &__text{
+        position: absolute; 
+        top: 40%; 
+        left: 40%; 
+        transform: translate(-50%, -50%);
+        &__top{
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 18px;
+            text-transform: uppercase;
+            color:$secondary;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        &__bottom{
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 48px;
+            margin-bottom: 32px;
+        }
+        &__but{
+            font-family: 'Work sans';
+            font-weight: 500;
+            font-size: 16px;
+            color: $primary;
+            border-radius: 50px;
+            background-color:$accent ;
+            width:170px;
+            height:  45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 121px;
+        }
+    }
+    &__book{
+        position: absolute; 
+        top: 63%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+        display: flex;
+        gap: 21px;
+        font-family: 'Work sans';
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 32px;
+        img{
+            width: 50px;
+        }
+        &__1{
+            width: 316px;
+            height: 100px;
+            background-color: $primary;
+            color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 21px;
+            .im1{
+                height: 50px;
+            }
+        }
+        &__2{
+            width: 316px;
+            height: 100px;
+            background-color: $accent;
+            color: $primary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 21px;
+            .im2{
+                height:42px ;
+            }
+        }
+        &__3{
+            width: 316px;
+            height: 100px;
+            background-color: $secondary;
+            color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 21px;
+            .im3{
+                height: 36px;
+            }
+        }
+
+    }
+    &__text1{
+        position: absolute; 
+        top: 80%; 
+        left: 50%;
+        transform: translate(-50%, -50%);
+        h3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 18px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 15px;
+        }
+        .p2{
+            width: 658px;
+            height: 86px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-family: 'Work sans';
+            font-weight: 400;
+            font-size: 18px;
+            color: $black;
+            margin-bottom: 32px;
+        }
+        &__lm{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            &__tx{
+            font-family: 'Work sans';
+            font-weight: 400;
+            font-size: 20px;
+            color: $secondary;
+            }
+        }
+    }
+
+}
