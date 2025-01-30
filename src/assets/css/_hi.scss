@@ -1,4 +1,5 @@
 .f2{
+    position: relative;
     &__im{
         position: relative;
         img{
@@ -10,10 +11,9 @@
         }
     }
     &__text{
-        position: absolute; 
-        top: 40%; 
-        left: 40%; 
-        transform: translate(-50%, -50%);
+        position:absolute ; 
+        top: 250px; 
+        left: 200px; 
         &__top{
             font-family: 'Work sans';
             font-weight: 700;
@@ -46,8 +46,8 @@
     }
     &__book{
         position: absolute; 
-        top: 63%; 
-        left: 50%; 
+        top: 690px; 
+        left: 725px; 
         transform: translate(-50%, -50%);
         display: flex;
         gap: 21px;
@@ -100,9 +100,9 @@
 
     }
     &__text1{
-        position: absolute; 
-        top: 80%; 
-        left: 50%;
+        position: absolute;
+        top: 1000px; 
+        left: 725px;
         transform: translate(-50%, -50%);
         h3{
             display: flex;

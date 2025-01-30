@@ -1,0 +1,38 @@
+.f5{
+    position: relative;
+    top: 2250px;
+    &__im{
+        position: relative;
+        img{
+            position: absolute;
+            width: 100%;
+        }
+    }
+    &__inside{
+        display: flex;
+        gap: 94px;
+        padding: 0 187px;
+        &__text{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 230px;
+            h2{
+                font-family: "Yeseva One";
+                font-weight: 500;
+                font-size: 32px;
+                color: $secondary;
+            } 
+            span{
+                width: 450px;
+                height: 110px;
+                font-family: "Work sans";
+                font-weight: 400;
+                font-size: 16px;
+                color: $black;
+            }
+        }
+    }
+
+}

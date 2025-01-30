@@ -1,0 +1,62 @@
+.f4{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: 1600px;
+    &__tx1{
+        position: absolute;
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 450px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 64px;
+        }
+    }
+    table{
+        position: relative;
+        top: 550px;
+        border-collapse: collapse;
+        .tab{
+            width: 248px;
+            height: 172px;
+            border: 1px solid #c4c4c463;
+            color: $black;
+            .df{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Work sans';
+                font-weight: 400;
+                font-size: 16px;
+                gap: 8px;
+              img{
+                width: 50px;
+                height: 44px;
+                }  
+            }
+        } 
+        .tab:hover{
+            transition: 0.5s;
+            background-color:$primary ;
+            color: $white;
+        }   
+    }    
+}
