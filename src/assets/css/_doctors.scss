@@ -32,9 +32,13 @@
     }
     &__anketa{
         position: absolute;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
         width: 992px;
         height: 650px;
         top: 300px;
+        gap: 20px;
         .doctor{
             width: 317px;
             height: 538px;
@@ -92,5 +96,122 @@
                 background-color: $secondary;
             }
         }
+        &__tochki{
+            width: 74px;
+            height: 18px;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: -220px;
+            img{
+                height: 18px;
+                width: 18px;
+            }
+        }
     }
+    &__tx1{
+        position: absolute;
+        top: 570px;
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 450px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 64px;
+        }
+    }
+    &__anketa2{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 992px;
+        height: 328px;
+        top: 1150px;
+        gap: 20px;
+        &__like{
+            display: flex;
+            height: 154px;
+            width: 486px;
+            img{
+                height: 154px;
+                width: 160px;
+                margin-right: 20px;
+            }
+            &__text{
+                h5{
+                    color: $secondary;
+                    font-family: "Work sans";
+                    font-size: 14px;
+                    margin-bottom: 8px;
+                }
+                .ap{
+                    color:$black;
+                    font-family: "Work sans";
+                    font-size: 18px;
+                }
+                .reaction{
+                    display: flex;
+                    color: $black;
+                    font-family: "Work sans";
+                    font-size: 14px;
+                    margin-top: 50px;
+                    .glas{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap:-15px;
+                        img{
+                        width: 16px;
+                        height: 10px;
+                        }
+                    }
+                    .likee{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 15px;
+                        img{
+                            width: 16px;
+                            height: 14px;
+                        }
+                        
+                    }
+                }
+            }
+        }    
+        .tochki1{
+            width: 74px;
+            height: 18px;
+            margin-top: 380px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: -550px;
+            img{
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+
 }

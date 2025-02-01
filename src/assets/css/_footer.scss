@@ -1,0 +1,160 @@
+.f7{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    position: relative;
+    top: 4300px;
+    &__tx{
+        position: absolute;
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-top: 450px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+        }
+    }
+    &__acheki{
+        position: absolute;
+        display: flex;
+        gap: 20px;
+        top: 350px;
+        .phone{
+           width: 233px;
+           height: 233px;
+           background-color: $accent;
+           color: $primary;
+           font-family: "Work sans";
+           display: flex;
+           flex-direction: column;
+           padding: 40px 30px;
+           gap: 8px;
+           .im1{
+            width: 30px;
+           }
+           .im2{
+            width: 35px;
+            height: 30px;
+           }
+           .im3{
+            width: 30px;
+            height: 30px;
+           }
+           img{
+            width: 40px;
+            height: 38px;
+           }
+           h3{
+            font-size: 18px;
+            font-weight: 700;
+           }
+           p{
+            font-size: 16px;
+           }
+        }
+        .phone:hover{
+            transition: 0.5s;
+            background-color: $white;
+        }
+    }
+    .foot{
+        position: absolute;
+        background-color: $primary;
+        width: 100%;
+        top: 650px;
+        padding-left: 187px;
+        padding-right: 187px;
+        padding-bottom: 70px;
+        padding-top: 70px;
+        .footer{
+            color: $white;
+            p{
+                font-family: "Work sans";
+                font-size: 16px;
+            }
+            &__up{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                border-bottom: 1px solid $white;
+                width: 992px;
+                height: 200px;
+                margin-bottom: 46px;
+                .meddical{
+                    width: 240px;
+                    height: 110px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 18px;
+                    h2{
+                        color: $accent;
+                        font-family: "Yeseva one";
+                        font-size: 36px;
+                        font-weight: 400;
+                        text-transform: uppercase;
+                    }
+                }
+                .important, .contact{
+                    span{
+                        display: flex;
+                        font-family: "Work sans";
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 40px;
+                    }
+                    P{
+                        display: flex;
+                        margin-bottom: 7px;
+                    }
+
+                }
+                .new{
+                    span{
+                        display: flex;
+                        font-family: "Work sans";
+                        font-size: 18px;
+                        font-weight: 600;
+                        margin-bottom: 40px;
+                    }
+                    .addres{
+                        width: 272px;
+                        height: 50px;
+                        background-color: $accent;
+                        color: $primary;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 25px;
+                        img{
+                            width: 22px;
+                            height: 19px;
+                        }
+                    }
+                }
+            }
+            &__down{
+                display: flex;
+                gap:423px ;
+                .img{
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+        }
+    }
+}

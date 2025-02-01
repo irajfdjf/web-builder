@@ -57,7 +57,17 @@
                 color: $white;
                 background-color: $primary;
                 padding-left: 10px;
-                } 
+                }
+                input:hover{
+                    transition: 0.5s;
+                    background-color: $accent;
+                    color: $black;
+                }
+                select:hover{
+                    transition: 0.5s;
+                    background-color: $accent;
+                    color: $black;
+                }
             }
             textarea{
                 font-family: 'Work sans';
@@ -69,6 +79,11 @@
                 height: 190px;
                 padding-left: 10px;
                 padding-top: 10px;
+            }
+            textarea:hover{
+                transition: 0.5s;
+                background-color: $accent;
+                color: $black;
             }
             button{
                 width: 491px;
