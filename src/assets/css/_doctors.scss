@@ -1,11 +1,8 @@
 .f6{
     display: flex;
-    justify-content:center;
+    flex-direction: column;
     align-items: center;
-    position: relative;
-    top: 2800px;
     &__tx{
-        position: absolute;
         h3{
             display: flex;
             justify-content: center;
@@ -16,7 +13,6 @@
             color: $secondary;
             text-transform: uppercase;
             letter-spacing: 3px;
-            margin-top: 450px;
             margin-bottom: 8px;
         }
         h1{
@@ -31,13 +27,11 @@
         }
     }
     &__anketa{
-        position: absolute;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         width: 992px;
         height: 650px;
-        top: 300px;
         gap: 20px;
         .doctor{
             width: 317px;
@@ -89,7 +83,9 @@
                 color: $white;
                 background-color: $primary;
                 font-family: "Work sans";
-                font-style: 16px;
+                p{
+                    font-size: 16px;
+                }
             }
             .view:hover{
                 transition: 0.5s;
@@ -104,7 +100,6 @@
             flex-direction: column;
             flex-wrap: wrap;
             gap: 10px;
-            margin-left: -220px;
             img{
                 height: 18px;
                 width: 18px;
@@ -112,8 +107,6 @@
         }
     }
     &__tx1{
-        position: absolute;
-        top: 570px;
         h3{
             display: flex;
             justify-content: center;
@@ -124,7 +117,6 @@
             color: $secondary;
             text-transform: uppercase;
             letter-spacing: 3px;
-            margin-top: 450px;
             margin-bottom: 8px;
         }
         h1{
@@ -139,13 +131,11 @@
         }
     }
     &__anketa2{
-        position: absolute;
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         width: 992px;
         height: 328px;
-        top: 1150px;
         gap: 20px;
         &__like{
             display: flex;
@@ -201,7 +191,6 @@
         .tochki1{
             width: 74px;
             height: 18px;
-            margin-top: 380px;
             display: flex;
             flex-direction: column;
             flex-wrap: wrap;

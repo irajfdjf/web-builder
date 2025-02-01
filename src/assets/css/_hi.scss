@@ -1,19 +1,13 @@
 .f2{
-    position: relative;
     &__im{
-        position: relative;
-        img{
-            position: absolute;
-            width: 100%;
-        }
-        .img2{
-            height: 692px;
-        }
+        
+        background-image: url(../img/doctor2.png), url(../img/cryg.png);
+        height: 520px;
+        padding-left: 150px;
+        display: flex;
+        align-items: center;
     }
     &__text{
-        position:absolute ; 
-        top: 250px; 
-        left: 200px; 
         &__top{
             font-family: 'Work sans';
             font-weight: 700;
@@ -45,11 +39,10 @@
         }
     }
     &__book{
-        position: absolute; 
-        top: 690px; 
-        left: 725px; 
-        transform: translate(-50%, -50%);
+        position: relative;
+        top: -50px;
         display: flex;
+        justify-content: center;
         gap: 21px;
         font-family: 'Work sans';
         font-weight: 500;
@@ -100,10 +93,8 @@
 
     }
     &__text1{
-        position: absolute;
-        top: 1000px; 
-        left: 725px;
-        transform: translate(-50%, -50%);
+        margin: 0 auto;
+        width: 700px;
         h3{
             display: flex;
             align-items: center;
@@ -127,11 +118,8 @@
             margin-bottom: 15px;
         }
         .p2{
-            width: 658px;
             height: 86px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            display: block;
             text-align: center;
             font-family: 'Work sans';
             font-weight: 400;

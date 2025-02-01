@@ -1,23 +1,16 @@
 .f5{
-    position: relative;
-    top: 2250px;
-    &__im{
-        position: relative;
-        img{
-            position: absolute;
-            width: 100%;
-        }
-    }
+    background-image: url(../img/whiteneger.png), url(../img/neger.png);
+ 
     &__inside{
         display: flex;
-        gap: 94px;
+        align-items: center;
+        justify-content: space-between;
         padding: 0 187px;
+        height: 600px ;
         &__text{
-            position: absolute;
             display: flex;
             flex-direction: column;
             gap: 16px;
-            margin-top: 230px;
             h2{
                 font-family: "Yeseva One";
                 font-weight: 500;
@@ -38,8 +31,6 @@
             flex-wrap: wrap;
             width: 481px;
             height: 445px;
-            margin-left: 500px;
-            margin-top: -300px;
             font-family: 'Work sans';
             font-size: 16px;
             font-weight: 200;
